@@ -36,3 +36,4 @@ D:\src\Projetos\CursoAspnetCoreMVC\DominandoAspNetMVCCore\DominandoAspNetMVCCore
 D:\src\Projetos\CursoAspnetCoreMVC\DominandoAspNetMVCCore\DominandoAspNetMVCCore\obj\Debug\netcoreapp3.1\DominandoAspNetMVCCore.genruntimeconfig.cache
 D:\src\Projetos\CursoAspnetCoreMVC\DominandoAspNetMVCCore\DominandoAspNetMVCCore\obj\Debug\netcoreapp3.1\DominandoAspNetMVCCore.csproj.CopyComplete
 D:\src\Projetos\CursoAspnetCoreMVC\DominandoAspNetMVCCore\DominandoAspNetMVCCore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\Carrinho\Default.cshtml.g.cs
+D:\src\Projetos\CursoAspnetCoreMVC\DominandoAspNetMVCCore\DominandoAspNetMVCCore\obj\Debug\netcoreapp3.1\Razor\Views\Filme\Adicionar.cshtml.g.cs
