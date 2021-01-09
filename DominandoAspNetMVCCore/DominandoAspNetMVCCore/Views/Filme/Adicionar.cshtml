@@ -10,26 +10,41 @@
     <div class="col-md-4">
         <form asp-action="Adicionar" asp-controller="Filme">
 
+            <div asp-validation-summary="ModelOnly" class="text-danger">
+                Erros aparece aqui
+            </div>
+
             <div class="form-group">
                 <label asp-for="Titutlo" class="form-label"></label>
                 <input asp-for="Titutlo" class="form-control" />
-                @Html.ValidationMessageFor(m => m.Titutlo, "", new { @class = "text-danger " })
-
+                <span asp-validation-for="Titutlo" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="Genero" class="form-label"></label>
                 <input asp-for="Genero" class="form-control" />
-            </div>  <div class="form-group">
+                <span asp-validation-for="Genero" class="text-danger"></span>
+            </div> 
+            <div class="form-group">
                 <label asp-for="DataLancamento" class="form-label"></label>
                 <input asp-for="DataLancamento" class="form-control" />
-            </div>
-            <div class="form-group">
-                <label asp-for="Valor" class="form-label"></label>
-                <input asp-for="Valor" class="form-control" />
-            </div>
+                <span asp-validation-for="DataLancamento" class="text-danger"></span>
+
+             </div>
+             <div class="form-group">
+                 <label asp-for="Valor" class="form-label"></label>
+                 <input asp-for="Valor" class="form-control" />
+                 <span asp-validation-for="Valor" class="text-danger"></span>
+             </div>
             <div class="form-group">
                 <input type="submit" value="Adicionar" class="btn btn-primary"/>
             </div>
         </form>
     </div>
 </div>
+
+@section Scripts{ 
+        @*//Validar Formulario antes de enviar para controller*@
+    @{ 
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
