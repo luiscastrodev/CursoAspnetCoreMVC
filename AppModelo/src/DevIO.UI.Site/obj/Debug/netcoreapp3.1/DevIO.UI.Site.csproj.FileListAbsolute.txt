@@ -29,3 +29,7 @@ D:\src\Projetos\CursoAspnetCoreMVC\AppModelo\src\DevIO.UI.Site\obj\Debug\netcore
 D:\src\Projetos\CursoAspnetCoreMVC\AppModelo\src\DevIO.UI.Site\obj\Debug\netcoreapp3.1\DevIO.UI.Site.RazorTargetAssemblyInfo.cs
 D:\src\Projetos\CursoAspnetCoreMVC\AppModelo\src\DevIO.UI.Site\obj\Debug\netcoreapp3.1\DevIO.UI.Site.Views.pdb
 D:\src\Projetos\CursoAspnetCoreMVC\AppModelo\src\DevIO.UI.Site\obj\Debug\netcoreapp3.1\DevIO.UI.Site.csproj.CopyComplete
+D:\src\Projetos\CursoAspnetCoreMVC\AppModelo\src\DevIO.UI.Site\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\src\Projetos\CursoAspnetCoreMVC\AppModelo\src\DevIO.UI.Site\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+D:\src\Projetos\CursoAspnetCoreMVC\AppModelo\src\DevIO.UI.Site\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+D:\src\Projetos\CursoAspnetCoreMVC\AppModelo\src\DevIO.UI.Site\bin\Debug\netcoreapp3.1\libman.json

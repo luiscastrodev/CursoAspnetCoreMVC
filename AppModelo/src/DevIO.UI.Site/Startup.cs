@@ -29,7 +29,13 @@ namespace DevIO.UI.Site
                 app.UseDeveloperExceptionPage();
             }
 
+
+            //usar arquivos staticos por exemplo jquery , css js etc...
+            app.UseStaticFiles();
+
             app.UseRouting();
+
+
 
             //configura rota default mvc
             app.UseEndpoints(routes =>
