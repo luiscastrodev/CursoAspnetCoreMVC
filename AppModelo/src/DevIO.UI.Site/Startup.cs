@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc.Razor;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
@@ -16,6 +17,15 @@ namespace DevIO.UI.Site
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
+
+            //configuracao da pasta area quando alterou o nome para modulos
+            services.Configure<RazorViewEngineOptions>(options =>
+            {
+                options.AreaViewLocationFormats.Clear();
+                options.AreaViewLocationFormats.Add("/Modulos/{2}/Views/{1}/{0}.cshtml");
+                options.AreaViewLocationFormats.Add("/Modulos/{2}/Views/Shared/{0}.cshtml");
+                options.AreaViewLocationFormats.Add("/Views/Shared/{0}.cshtml");
+            });
 
             //adiciona mvc e seta versao 
             services.AddMvc().SetCompatibilityVersion(Microsoft.AspNetCore.Mvc.CompatibilityVersion.Version_3_0);
@@ -43,7 +53,26 @@ namespace DevIO.UI.Site
                 routes.MapControllerRoute(
                      name: "default",
                      pattern: "{controller=Home}/{action=Index}/{id?}");
+
+                //configurando uma area
+                /*routes.MapControllerRoute(
+                  name: "areas",
+                  pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}"
+                  );*/
+
+                routes.MapAreaControllerRoute(
+                    name: "AreaProdutos",
+                    areaName: "Produtos",
+                    "{controller=Cadastro}/{action=Index}/{id?}"
+                    );
+                routes.MapAreaControllerRoute(
+                   name: "AreaVendas",
+                   areaName: "Pedidos",
+                   "{controller=Pedidos}/{action=Index}/{id?}"
+                   );
             });
+
+
         }
     }
 }
