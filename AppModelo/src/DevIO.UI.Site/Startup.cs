@@ -42,7 +42,7 @@ namespace DevIO.UI.Site
 
             //configuracao entity framework
             services.AddDbContext<MeuDBContext>(
-                  options => options.UseSqlServer(this.Configuration.GetConnectionString("MeuDBContext"))) ;
+                  options => options.UseSqlServer("Server=(localdb)\\mssqllocaldb;Database=MeuBancoDoCursoAspNet;Trusted_Connection=True;")) ;
 
             //adiciona mvc e seta versao 
             services.AddMvc().SetCompatibilityVersion(Microsoft.AspNetCore.Mvc.CompatibilityVersion.Version_3_0);
