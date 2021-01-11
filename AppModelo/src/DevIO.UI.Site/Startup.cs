@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using DevIO.UI.Site.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -29,6 +30,16 @@ namespace DevIO.UI.Site
 
             //adiciona mvc e seta versao 
             services.AddMvc().SetCompatibilityVersion(Microsoft.AspNetCore.Mvc.CompatibilityVersion.Version_3_0);
+
+            //adicionando Injecao denpendencia criada
+            services.AddTransient<IPedidoRepository, PedidoRepository>();
+
+            //Injecao DP
+            //Transiente Obter uma nova instancia do objeto a cada solicitacao
+
+            //Scoped Reutiliza a mesma instancia do objeto durante todo o request (web)
+
+            //Singleton utiliza a mesma instacnia para toda aplicacao (cuidado)
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -44,8 +55,6 @@ namespace DevIO.UI.Site
             app.UseStaticFiles();
 
             app.UseRouting();
-
-
 
             //configura rota default mvc
             app.UseEndpoints(routes =>
