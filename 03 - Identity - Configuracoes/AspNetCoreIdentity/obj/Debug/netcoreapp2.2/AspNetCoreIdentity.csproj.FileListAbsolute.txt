@@ -1,0 +1,9 @@
+D:\src\Projetos\CursoAspnetCoreMVC\03 - Identity - Configuracoes\AspNetCoreIdentity\obj\Debug\netcoreapp2.2\AspNetCoreIdentity.csprojAssemblyReference.cache
+D:\src\Projetos\CursoAspnetCoreMVC\03 - Identity - Configuracoes\AspNetCoreIdentity\obj\Debug\netcoreapp2.2\AspNetCoreIdentity.AssemblyInfoInputs.cache
+D:\src\Projetos\CursoAspnetCoreMVC\03 - Identity - Configuracoes\AspNetCoreIdentity\obj\Debug\netcoreapp2.2\AspNetCoreIdentity.AssemblyInfo.cs
+D:\src\Projetos\CursoAspnetCoreMVC\03 - Identity - Configuracoes\AspNetCoreIdentity\obj\Debug\netcoreapp2.2\AspNetCoreIdentity.csproj.CoreCompileInputs.cache
+D:\src\Projetos\CursoAspnetCoreMVC\03 - Identity - Configuracoes\AspNetCoreIdentity\obj\Debug\netcoreapp2.2\AspNetCoreIdentity.RazorAssemblyInfo.cache
+D:\src\Projetos\CursoAspnetCoreMVC\03 - Identity - Configuracoes\AspNetCoreIdentity\obj\Debug\netcoreapp2.2\AspNetCoreIdentity.RazorAssemblyInfo.cs
+D:\src\Projetos\CursoAspnetCoreMVC\03 - Identity - Configuracoes\AspNetCoreIdentity\obj\Debug\netcoreapp2.2\AspNetCoreIdentity.TagHelpers.input.cache
+D:\src\Projetos\CursoAspnetCoreMVC\03 - Identity - Configuracoes\AspNetCoreIdentity\obj\Debug\netcoreapp2.2\AspNetCoreIdentity.dll
+D:\src\Projetos\CursoAspnetCoreMVC\03 - Identity - Configuracoes\AspNetCoreIdentity\obj\Debug\netcoreapp2.2\AspNetCoreIdentity.pdb
