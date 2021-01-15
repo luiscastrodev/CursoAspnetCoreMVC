@@ -1,0 +1,12 @@
+D:\src\Projetos\CursoAspnetCoreMVC\MinhaAppMvcCompletaRelease\src\DevIO.Data\bin\Debug\netcoreapp3.1\DevIO.Data.deps.json
+D:\src\Projetos\CursoAspnetCoreMVC\MinhaAppMvcCompletaRelease\src\DevIO.Data\bin\Debug\netcoreapp3.1\DevIO.Data.dll
+D:\src\Projetos\CursoAspnetCoreMVC\MinhaAppMvcCompletaRelease\src\DevIO.Data\bin\Debug\netcoreapp3.1\DevIO.Data.pdb
+D:\src\Projetos\CursoAspnetCoreMVC\MinhaAppMvcCompletaRelease\src\DevIO.Data\bin\Debug\netcoreapp3.1\DevIO.Bunisses.dll
+D:\src\Projetos\CursoAspnetCoreMVC\MinhaAppMvcCompletaRelease\src\DevIO.Data\bin\Debug\netcoreapp3.1\DevIO.Bunisses.pdb
+D:\src\Projetos\CursoAspnetCoreMVC\MinhaAppMvcCompletaRelease\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.csprojAssemblyReference.cache
+D:\src\Projetos\CursoAspnetCoreMVC\MinhaAppMvcCompletaRelease\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.AssemblyInfoInputs.cache
+D:\src\Projetos\CursoAspnetCoreMVC\MinhaAppMvcCompletaRelease\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.AssemblyInfo.cs
+D:\src\Projetos\CursoAspnetCoreMVC\MinhaAppMvcCompletaRelease\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.csproj.CoreCompileInputs.cache
+D:\src\Projetos\CursoAspnetCoreMVC\MinhaAppMvcCompletaRelease\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.csproj.CopyComplete
+D:\src\Projetos\CursoAspnetCoreMVC\MinhaAppMvcCompletaRelease\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.dll
+D:\src\Projetos\CursoAspnetCoreMVC\MinhaAppMvcCompletaRelease\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.pdb

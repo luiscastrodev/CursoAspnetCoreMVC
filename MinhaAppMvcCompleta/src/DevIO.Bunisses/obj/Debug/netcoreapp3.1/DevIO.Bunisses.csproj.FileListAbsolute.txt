@@ -1,0 +1,9 @@
+D:\src\Projetos\CursoAspnetCoreMVC\MinhaAppMvcCompleta\src\DevIO.Bunisses\bin\Debug\netcoreapp3.1\DevIO.Bunisses.deps.json
+D:\src\Projetos\CursoAspnetCoreMVC\MinhaAppMvcCompleta\src\DevIO.Bunisses\bin\Debug\netcoreapp3.1\DevIO.Bunisses.dll
+D:\src\Projetos\CursoAspnetCoreMVC\MinhaAppMvcCompleta\src\DevIO.Bunisses\bin\Debug\netcoreapp3.1\DevIO.Bunisses.pdb
+D:\src\Projetos\CursoAspnetCoreMVC\MinhaAppMvcCompleta\src\DevIO.Bunisses\obj\Debug\netcoreapp3.1\DevIO.Bunisses.csprojAssemblyReference.cache
+D:\src\Projetos\CursoAspnetCoreMVC\MinhaAppMvcCompleta\src\DevIO.Bunisses\obj\Debug\netcoreapp3.1\DevIO.Bunisses.AssemblyInfoInputs.cache
+D:\src\Projetos\CursoAspnetCoreMVC\MinhaAppMvcCompleta\src\DevIO.Bunisses\obj\Debug\netcoreapp3.1\DevIO.Bunisses.AssemblyInfo.cs
+D:\src\Projetos\CursoAspnetCoreMVC\MinhaAppMvcCompleta\src\DevIO.Bunisses\obj\Debug\netcoreapp3.1\DevIO.Bunisses.csproj.CoreCompileInputs.cache
+D:\src\Projetos\CursoAspnetCoreMVC\MinhaAppMvcCompleta\src\DevIO.Bunisses\obj\Debug\netcoreapp3.1\DevIO.Bunisses.dll
+D:\src\Projetos\CursoAspnetCoreMVC\MinhaAppMvcCompleta\src\DevIO.Bunisses\obj\Debug\netcoreapp3.1\DevIO.Bunisses.pdb
