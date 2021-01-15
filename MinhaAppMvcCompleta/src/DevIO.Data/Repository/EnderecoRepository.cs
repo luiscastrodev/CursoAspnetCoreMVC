@@ -1,5 +1,7 @@
 ﻿using DevIO.App.Models;
 using DevIO.Bunisses.Interfaces;
+using DevIO.Data.Context;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
@@ -10,15 +12,14 @@ namespace DevIO.Data.Repository
 {
     public class EnderecoRepository : Repository<Endereco>, IEnderecoRepository
     {
-
-        public Task<IEnumerable<Fornecedor>> Buscar(Expression<Func<Fornecedor, bool>> predicate)
+        public EnderecoRepository(MeuDbContext context) : base(context)
         {
-            throw new NotImplementedException();
         }
 
-        public Task<Endereco> ObterEnderecoPorFornecedor(Guid fornecedorId)
+        public async Task<Endereco> ObterEnderecoPorFornecedor(Guid fornecedorId)
         {
-            throw new NotImplementedException();
+            return await Db.Enderecos.AsNoTracking()
+                .FirstOrDefaultAsync(p => p.FornecedorId == fornecedorId);
         }
 
     }

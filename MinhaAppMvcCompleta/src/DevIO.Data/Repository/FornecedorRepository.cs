@@ -1,5 +1,7 @@
 ﻿using DevIO.App.Models;
 using DevIO.Bunisses.Interfaces;
+using DevIO.Data.Context;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -9,14 +11,22 @@ namespace DevIO.Data.Repository
 {
     public class FornecedorRepository : Repository<Fornecedor>, IFornecedorRepository
     {
-        public Task<Fornecedor> ObterFornecedorEndereco(Guid id)
+        public FornecedorRepository(MeuDbContext context) : base(context)
         {
-            throw new NotImplementedException();
+        }
+        public async Task<Fornecedor> ObterFornecedorEndereco(Guid id)
+        {
+            return await Db.Fornecedores
+                .AsNoTracking().Include(f => f.Endereco)
+                .FirstOrDefaultAsync(p => p.Id == id);
         }
 
-        public Task<Fornecedor> ObterFornecedorProdutosEndereco(Guid id)
+        public async Task<Fornecedor> ObterFornecedorProdutosEndereco(Guid id)
         {
-            throw new NotImplementedException();
+            return await Db.Fornecedores.AsNoTracking()
+                  .Include(f => f.Produtos)
+                  .Include(f => f.Endereco)
+                  .FirstOrDefaultAsync(p => p.Id == id);
         }
     }
 }
