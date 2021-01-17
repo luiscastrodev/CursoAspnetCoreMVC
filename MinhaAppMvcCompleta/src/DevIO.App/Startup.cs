@@ -15,6 +15,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AutoMapper;
 
 namespace DevIO.App
 {
@@ -41,13 +42,16 @@ namespace DevIO.App
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
 
+            //configuracao automaper
+           // services.AddAutoMapper(typeof(Startup));
+
             services.AddControllersWithViews();
             services.AddRazorPages();
-
+            /*
             services.AddScoped<MeuDbContext>();
             services.AddScoped<IProdutoRepository, ProdutoRepository>();
             services.AddScoped<IEnderecoRepository, EnderecoRepository>();
-            services.AddScoped<IFornecedorRepository, FornecedorRepository>();
+            services.AddScoped<IFornecedorRepository, FornecedorRepository>();*/
 
         }
 
